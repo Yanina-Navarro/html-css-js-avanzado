@@ -6,21 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/logo.png">
     <title>Proyecto Final</title>
 </head>
 
-<body>
-    <h1>PROGRAMACION E HISTORIA</h1>
-    <h2>CONTENIDO</h2>
-    <div>
-        <p>Conozcamos un poco sobre la historia de la programacion</p>
-    </div>
-    <div>Vamos a jugar un poco utilizando metodos aprendidos en clase</div>
+<body onscroll="scrollnav()">
+    <nav>
+        <a href="./index.html">
+            <svg width="200" height="100">
+                <rect x="50" y="10" fill="#000000" stroke="#000000" stroke-width="3" width="90px" height="60px"></rect>
+                <rect x="55" y="15" fill="#777575" stroke="#777575" stroke-width="3" width="80px" height="50px"></rect>
+                <rect x="60" y="70" fill="#000000" stroke="#000000" stroke-width="3" width="3px" height="10px"></rect>
+                <rect x="125" y="70" fill="#000000" stroke="#000000" stroke-width="3" width="3px" height="10px"></rect>
+                <polygon points="95,30 100,40 110,41 103,48 105,58 95,53 85,58 87,48 80,41 90,40" class="star"
+                    fill="#ffffff"></polygon>
+            </svg>
+        </a>
+        <ul class="indice-menu">
+            <li class="ancla"><a href="./historia.html">Historia</a></li>
+            <li class="ancla"><a href="./juguemos.html">Juguemos</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>PROGRAMACION E HISTORIA</h1>
+
+    </header>
+    <main>
+        <h2>CONTENIDO</h2>
+        <section class="contenedorindex">
+            <div class="cajaindex">
+                <img class="imgindex" src="./img/historia-programacion.jpg" alt="historia-index">
+                <p class="textoindex">Conozcamos un poco sobre la historia de la programacion</p>
+                <a class="cajabutton" href="./historia.html">IR A HISTORIA</a>
+            </div>
+            <div class="cajaindex">
+                <img class="imgindex" src="./img/img2.jpg" alt="juguemos-index">
+                <p class="textoindex">Vamos a jugar un poco utilizando metodos aprendidos en clase</p>
+                <a class="cajabutton" href="./juguemos.html">IR A JUEGO</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerleft">
+            <img src="./img/logo.png" alt="logo">
+            <p><strong>PROGRAMACION E HISTORIA</strong></p>
+        </div>
+        <div>
+            <p>Sitio con fines educativos - Creado por Yanina Navarro</p>
+        </div>
+    </footer>
+    <script src="./scritp.js"></script>
 </body>
-<footer>
-    <div>
-        <p>Sitio con fines educativos - Creado por Yanina Navarro</p>
-    </div>
-</footer>
 
 </html>
